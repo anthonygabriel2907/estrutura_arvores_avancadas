@@ -8,10 +8,13 @@ NoTrie* Trie::criarNo() {
     for(int i = 0; i < TAM_ALFABETO; i++) {
         novoNo->filhos[i] = nullptr;
     }
+
+    totalNos++; // conta mais um nó alocado na RAM
     return novoNo;
 }
 
 Trie::Trie() {
+    totalNos = 0;
     raiz = criarNo();
 }
 
@@ -58,4 +61,8 @@ void Trie::remover(std::string palavra, long long &operacoes) {
     if (atual->fimPalavra) {
         atual->fimPalavra = false;
     }
+}
+
+long long Trie::getConsumoMemoriaEmBytes() {
+    return totalNos * sizeof(NoTrie);
 }

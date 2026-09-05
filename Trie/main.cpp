@@ -4,7 +4,6 @@
 #include <string>
 #include <chrono>
 
-// testar um arquivo e extrair as métricas, salvando no arquivo de saída
 void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     Trie minhaArvore;
     std::ifstream arquivo(nomeArquivo);
@@ -69,6 +68,14 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     std::cout << "Remocao:  " << contRemocoes << " palavras em " << tempoRemocao << " ms. (Operacoes: " << opsRemocao << ")" << std::endl;
     saida << "Remocao:  " << contRemocoes << " palavras em " << tempoRemocao << " ms. (Operacoes: " << opsRemocao << ")" << std::endl;
 
+    // consumo de memoria
+    long long memoriaBytes = minhaArvore.getConsumoMemoriaEmBytes();
+    double memoriaKB = memoriaBytes / 1024.0;
+    double memoriaMB = memoriaKB / 1024.0;
+
+    std::cout << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
+    saida << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
+
     arquivo.close();
 }
 
@@ -79,7 +86,7 @@ int main() {
         return 1;
     }
 
-    std::cout << "Iniciando testes da Trie..." << std::endl;
+    std::cout << "Iniciando testes da Trie" << std::endl;
 
     executarExperimento("input/dados_teste_trie/tam_100/aleatorio.txt", arquivoSaida);
     executarExperimento("input/dados_teste_trie/tam_100/dicionario.txt", arquivoSaida);
@@ -101,7 +108,7 @@ int main() {
     executarExperimento("input/dados_teste_trie/tam_1000000/prefixo_comum.txt", arquivoSaida);
     
     arquivoSaida.close();
-    std::cout << "\nTestes finalizados! Resultados salvos em 'output/resultados_trie.txt'" << std::endl;
+    std::cout << "\nTestes finalizados. Resultados salvos em 'output/resultados_trie.txt'" << std::endl;
     
     return 0;
 }

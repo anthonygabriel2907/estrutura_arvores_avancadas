@@ -11,6 +11,8 @@ struct NoTrie {
 class Trie {
     private:
         NoTrie* raiz;
+        long long totalNos; // contador de nos
+
         NoTrie* criarNo();
 
     public:
@@ -18,4 +20,6 @@ class Trie {
     void inserir(std::string palavra, long long &operacoes);
     bool buscar(std::string palavra, long long &operacoes);
     void remover(std::string palavra, long long &operacoes);
+
+    long long getConsumoMemoriaEmBytes();
 };
