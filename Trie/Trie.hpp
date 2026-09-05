@@ -15,7 +15,7 @@ class Trie {
 
     public:
     Trie();
-    void inserir(std::string palavra);
-    bool buscar(std::string palavra);
-    void remover(std::string palavra);
+    void inserir(std::string palavra, long long &operacoes);
+    bool buscar(std::string palavra, long long &operacoes);
+    void remover(std::string palavra, long long &operacoes);
 };

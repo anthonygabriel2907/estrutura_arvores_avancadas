@@ -1,0 +1,70 @@
+
+Testando arquivo: input/dados_teste_trie/tam_100/aleatorio.txt ---
+Insercao: 100 palavras em 0 ms. (Operacoes: 708)
+Busca:    100 palavras em 0 ms. (Operacoes: 708)
+Remocao:  100 palavras em 0 ms. (Operacoes: 708)
+
+Testando arquivo: input/dados_teste_trie/tam_100/dicionario.txt ---
+Insercao: 100 palavras em 1 ms. (Operacoes: 979)
+Busca:    100 palavras em 0 ms. (Operacoes: 979)
+Remocao:  100 palavras em 0 ms. (Operacoes: 979)
+
+Testando arquivo: input/dados_teste_trie/tam_100/prefixo_comum.txt ---
+Insercao: 100 palavras em 0 ms. (Operacoes: 1274)
+Busca:    100 palavras em 0 ms. (Operacoes: 1274)
+Remocao:  100 palavras em 0 ms. (Operacoes: 1274)
+
+Testando arquivo: input/dados_teste_trie/tam_1000/aleatorio.txt ---
+Insercao: 1000 palavras em 2 ms. (Operacoes: 6999)
+Busca:    1000 palavras em 1 ms. (Operacoes: 6999)
+Remocao:  1000 palavras em 1 ms. (Operacoes: 6999)
+
+Testando arquivo: input/dados_teste_trie/tam_1000/dicionario.txt ---
+Insercao: 1000 palavras em 4 ms. (Operacoes: 10037)
+Busca:    1000 palavras em 1 ms. (Operacoes: 10037)
+Remocao:  1000 palavras em 3 ms. (Operacoes: 10037)
+
+Testando arquivo: input/dados_teste_trie/tam_1000/prefixo_comum.txt ---
+Insercao: 1000 palavras em 0 ms. (Operacoes: 13272)
+Busca:    1000 palavras em 0 ms. (Operacoes: 13272)
+Remocao:  1000 palavras em 0 ms. (Operacoes: 13272)
+
+Testando arquivo: input/dados_teste_trie/tam_10000/aleatorio.txt ---
+Insercao: 10000 palavras em 28 ms. (Operacoes: 70003)
+Busca:    10000 palavras em 5 ms. (Operacoes: 70003)
+Remocao:  10000 palavras em 17 ms. (Operacoes: 70003)
+
+Testando arquivo: input/dados_teste_trie/tam_10000/dicionario.txt ---
+Insercao: 10000 palavras em 28 ms. (Operacoes: 101149)
+Busca:    10000 palavras em 14 ms. (Operacoes: 101149)
+Remocao:  10000 palavras em 10 ms. (Operacoes: 101149)
+
+Testando arquivo: input/dados_teste_trie/tam_10000/prefixo_comum.txt ---
+Insercao: 10000 palavras em 4 ms. (Operacoes: 139272)
+Busca:    10000 palavras em 2 ms. (Operacoes: 139272)
+Remocao:  10000 palavras em 1 ms. (Operacoes: 139272)
+
+Testando arquivo: input/dados_teste_trie/tam_100000/aleatorio.txt ---
+Insercao: 100000 palavras em 148 ms. (Operacoes: 701394)
+Busca:    100000 palavras em 124 ms. (Operacoes: 701394)
+Remocao:  100000 palavras em 170 ms. (Operacoes: 701394)
+
+Testando arquivo: input/dados_teste_trie/tam_100000/dicionario.txt ---
+Insercao: 100000 palavras em 243 ms. (Operacoes: 1009968)
+Busca:    100000 palavras em 112 ms. (Operacoes: 1009968)
+Remocao:  100000 palavras em 108 ms. (Operacoes: 1009968)
+
+Testando arquivo: input/dados_teste_trie/tam_100000/prefixo_comum.txt ---
+Insercao: 100000 palavras em 143 ms. (Operacoes: 1480994)
+Busca:    100000 palavras em 56 ms. (Operacoes: 1480994)
+Remocao:  100000 palavras em 57 ms. (Operacoes: 1480994)
+
+Testando arquivo: input/dados_teste_trie/tam_1000000/aleatorio.txt ---
+Insercao: 1000000 palavras em 1973 ms. (Operacoes: 7064064)
+Busca:    1000000 palavras em 2611 ms. (Operacoes: 7064064)
+Remocao:  1000000 palavras em 1205 ms. (Operacoes: 7064064)
+
+Testando arquivo: input/dados_teste_trie/tam_1000000/prefixo_comum.txt ---
+Insercao: 1000000 palavras em 757 ms. (Operacoes: 15505740)
+Busca:    1000000 palavras em 353 ms. (Operacoes: 15505740)
+Remocao:  1000000 palavras em 464 ms. (Operacoes: 15505740)
