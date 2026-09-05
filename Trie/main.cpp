@@ -88,24 +88,24 @@ int main() {
 
     std::cout << "Iniciando testes da Trie" << std::endl;
 
-    executarExperimento("input/dados_teste_trie/tam_100/aleatorio.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_100/dicionario.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_100/prefixo_comum.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100/dicionario.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100/prefixo_comum.txt", arquivoSaida);
     
-    executarExperimento("input/dados_teste_trie/tam_1000/aleatorio.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_1000/dicionario.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_1000/prefixo_comum.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_1000/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_1000/dicionario.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_1000/prefixo_comum.txt", arquivoSaida);
 
-    executarExperimento("input/dados_teste_trie/tam_10000/aleatorio.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_10000/dicionario.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_10000/prefixo_comum.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_10000/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_10000/dicionario.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_10000/prefixo_comum.txt", arquivoSaida);
 
-    executarExperimento("input/dados_teste_trie/tam_100000/aleatorio.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_100000/dicionario.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_100000/prefixo_comum.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100000/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100000/dicionario.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_100000/prefixo_comum.txt", arquivoSaida);
 
-    executarExperimento("input/dados_teste_trie/tam_1000000/aleatorio.txt", arquivoSaida);
-    executarExperimento("input/dados_teste_trie/tam_1000000/prefixo_comum.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_1000000/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_1000000/prefixo_comum.txt", arquivoSaida);
     
     arquivoSaida.close();
     std::cout << "\nTestes finalizados. Resultados salvos em 'output/resultados_trie.txt'" << std::endl;
