@@ -1,84 +1,84 @@
 
 Testando arquivo: input/dados_teste_string/tam_100/dicionario.txt ---
-Insercao: 100 palavras em 1 ms. (Operacoes: 348)
+Insercao: 100 palavras em 0 ms. (Operacoes: 348)
 Busca:    100 palavras em 0 ms. (Operacoes: 1263)
+Memoria:  34720 bytes (33.9062 KB / 0.0331116 MB)
 Remocao:  100 palavras em 0 ms. (Operacoes: 1218)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
 
 Testando arquivo: input/dados_teste_string/tam_100/aleatorio.txt ---
 Insercao: 100 palavras em 0 ms. (Operacoes: 235)
 Busca:    100 palavras em 0 ms. (Operacoes: 919)
+Memoria:  32240 bytes (31.4844 KB / 0.0307465 MB)
 Remocao:  100 palavras em 0 ms. (Operacoes: 888)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
 
 Testando arquivo: input/dados_teste_string/tam_100/prefixo_comum.txt ---
 Insercao: 100 palavras em 0 ms. (Operacoes: 1435)
 Busca:    100 palavras em 0 ms. (Operacoes: 1548)
+Memoria:  25296 bytes (24.7031 KB / 0.0241241 MB)
 Remocao:  100 palavras em 0 ms. (Operacoes: 1523)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
 
 Testando arquivo: input/dados_teste_string/tam_1000/aleatorio.txt ---
-Insercao: 1000 palavras em 2 ms. (Operacoes: 3612)
-Busca:    1000 palavras em 4 ms. (Operacoes: 9803)
-Remocao:  1000 palavras em 1 ms. (Operacoes: 9461)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 1000 palavras em 1 ms. (Operacoes: 3612)
+Busca:    1000 palavras em 0 ms. (Operacoes: 9803)
+Memoria:  331080 bytes (323.32 KB / 0.315742 MB)
+Remocao:  1000 palavras em 2 ms. (Operacoes: 9461)
 
 Testando arquivo: input/dados_teste_string/tam_1000/dicionario.txt ---
-Insercao: 1000 palavras em 20 ms. (Operacoes: 5642)
+Insercao: 1000 palavras em 1 ms. (Operacoes: 5642)
 Busca:    1000 palavras em 1 ms. (Operacoes: 13975)
-Remocao:  1000 palavras em 2 ms. (Operacoes: 13456)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Memoria:  359848 bytes (351.414 KB / 0.343178 MB)
+Remocao:  1000 palavras em 5 ms. (Operacoes: 13456)
 
 Testando arquivo: input/dados_teste_string/tam_1000/prefixo_comum.txt ---
 Insercao: 1000 palavras em 2 ms. (Operacoes: 15531)
 Busca:    1000 palavras em 1 ms. (Operacoes: 16544)
+Memoria:  248496 bytes (242.672 KB / 0.236984 MB)
 Remocao:  1000 palavras em 2 ms. (Operacoes: 16197)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
 
 Testando arquivo: input/dados_teste_string/tam_10000/aleatorio.txt ---
-Insercao: 10000 palavras em 15 ms. (Operacoes: 50716)
-Busca:    10000 palavras em 7 ms. (Operacoes: 104374)
-Remocao:  10000 palavras em 12 ms. (Operacoes: 101652)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 10000 palavras em 17 ms. (Operacoes: 50716)
+Busca:    10000 palavras em 18 ms. (Operacoes: 104374)
+Memoria:  3144392 bytes (3070.7 KB / 2.99873 MB)
+Remocao:  10000 palavras em 14 ms. (Operacoes: 101652)
 
 Testando arquivo: input/dados_teste_string/tam_10000/dicionario.txt ---
-Insercao: 10000 palavras em 19 ms. (Operacoes: 85879)
-Busca:    10000 palavras em 12 ms. (Operacoes: 154288)
-Remocao:  10000 palavras em 16 ms. (Operacoes: 148045)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 10000 palavras em 25 ms. (Operacoes: 85879)
+Busca:    10000 palavras em 18 ms. (Operacoes: 154288)
+Memoria:  3719504 bytes (3632.33 KB / 3.5472 MB)
+Remocao:  10000 palavras em 18 ms. (Operacoes: 148045)
 
 Testando arquivo: input/dados_teste_string/tam_10000/prefixo_comum.txt ---
 Insercao: 10000 palavras em 20 ms. (Operacoes: 168531)
-Busca:    10000 palavras em 10 ms. (Operacoes: 178544)
-Remocao:  10000 palavras em 20 ms. (Operacoes: 177310)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Busca:    10000 palavras em 14 ms. (Operacoes: 178544)
+Memoria:  2480496 bytes (2422.36 KB / 2.36559 MB)
+Remocao:  10000 palavras em 14 ms. (Operacoes: 177310)
 
 Testando arquivo: input/dados_teste_string/tam_100000/aleatorio.txt ---
-Insercao: 100000 palavras em 181 ms. (Operacoes: 657119)
-Busca:    100000 palavras em 113 ms. (Operacoes: 1117725)
-Remocao:  100000 palavras em 135 ms. (Operacoes: 1091122)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 100000 palavras em 157 ms. (Operacoes: 657119)
+Busca:    100000 palavras em 116 ms. (Operacoes: 1117725)
+Memoria:  30905760 bytes (30181.4 KB / 29.474 MB)
+Remocao:  100000 palavras em 136 ms. (Operacoes: 1091122)
 
 Testando arquivo: input/dados_teste_string/tam_100000/dicionario.txt ---
-Insercao: 100000 palavras em 227 ms. (Operacoes: 1240673)
-Busca:    100000 palavras em 199 ms. (Operacoes: 1718406)
-Remocao:  100000 palavras em 213 ms. (Operacoes: 1643308)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 100000 palavras em 241 ms. (Operacoes: 1240673)
+Busca:    100000 palavras em 316 ms. (Operacoes: 1718406)
+Memoria:  35196904 bytes (34372 KB / 33.5664 MB)
+Remocao:  100000 palavras em 201 ms. (Operacoes: 1643308)
 
 Testando arquivo: input/dados_teste_string/tam_100000/prefixo_comum.txt ---
-Insercao: 100000 palavras em 152 ms. (Operacoes: 1861975)
-Busca:    100000 palavras em 154 ms. (Operacoes: 1961988)
-Remocao:  100000 palavras em 152 ms. (Operacoes: 1939895)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 100000 palavras em 179 ms. (Operacoes: 1861975)
+Busca:    100000 palavras em 189 ms. (Operacoes: 1961988)
+Memoria:  24800496 bytes (24219.2 KB / 23.6516 MB)
+Remocao:  100000 palavras em 161 ms. (Operacoes: 1939895)
 
 Testando arquivo: input/dados_teste_string/tam_1000000/aleatorio.txt ---
-Insercao: 1000000 palavras em 2742 ms. (Operacoes: 7874997)
-Busca:    1000000 palavras em 2000 ms. (Operacoes: 11889708)
-Remocao:  1000000 palavras em 1927 ms. (Operacoes: 11582476)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 1000000 palavras em 2681 ms. (Operacoes: 7874997)
+Busca:    1000000 palavras em 2627 ms. (Operacoes: 11889708)
+Memoria:  303771232 bytes (296652 KB / 289.699 MB)
+Remocao:  1000000 palavras em 2054 ms. (Operacoes: 11582476)
 
 Testando arquivo: input/dados_teste_string/tam_1000000/prefixo_comum.txt ---
-Insercao: 1000000 palavras em 1629 ms. (Operacoes: 20011467)
-Busca:    1000000 palavras em 1276 ms. (Operacoes: 21011480)
-Remocao:  1000000 palavras em 1475 ms. (Operacoes: 20801126)
-Memoria:  248 bytes (0.242188 KB / 0.000236511 MB)
+Insercao: 1000000 palavras em 1732 ms. (Operacoes: 20011467)
+Busca:    1000000 palavras em 1286 ms. (Operacoes: 21011480)
+Memoria:  248000496 bytes (242188 KB / 236.512 MB)
+Remocao:  1000000 palavras em 1620 ms. (Operacoes: 20801126)

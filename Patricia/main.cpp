@@ -21,7 +21,7 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     auto inicioInsercao = std::chrono::high_resolution_clock::now();
     int contInsercoes = 0;
     long long opsInsercao = 0;
-    
+
     while (std::getline(arquivo, palavra)) {
         minhaArvore.inserir(palavra, opsInsercao);
         contInsercoes++;
@@ -39,7 +39,7 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     auto inicioBusca = std::chrono::high_resolution_clock::now();
     int contBuscas = 0;
     long long opsBusca = 0;
-    
+
     while (std::getline(arquivo, palavra)) {
         minhaArvore.buscar(palavra, opsBusca);
         contBuscas++;
@@ -50,6 +50,17 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     std::cout << "Busca:    " << contBuscas << " palavras em " << tempoBusca << " ms. (Operacoes: " << opsBusca << ")" << std::endl;
     saida << "Busca:    " << contBuscas << " palavras em " << tempoBusca << " ms. (Operacoes: " << opsBusca << ")" << std::endl;
 
+    // ========================================================================
+    // ALTERAÇÃO AQUI: Calculando a memória com a árvore CHEIA!
+    // ========================================================================
+    long long memoriaBytes = minhaArvore.getConsumoMemoriaEmBytes();
+    double memoriaKB = memoriaBytes / 1024.0;
+    double memoriaMB = memoriaKB / 1024.0;
+
+    std::cout << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
+    saida << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
+    // ========================================================================
+
     arquivo.clear();
     arquivo.seekg(0, std::ios::beg);
 
@@ -57,7 +68,7 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
     auto inicioRemocao = std::chrono::high_resolution_clock::now();
     int contRemocoes = 0;
     long long opsRemocao = 0;
-    
+
     while (std::getline(arquivo, palavra)) {
         minhaArvore.remover(palavra, opsRemocao);
         contRemocoes++;
@@ -67,14 +78,6 @@ void executarExperimento(std::string nomeArquivo, std::ofstream &saida) {
 
     std::cout << "Remocao:  " << contRemocoes << " palavras em " << tempoRemocao << " ms. (Operacoes: " << opsRemocao << ")" << std::endl;
     saida << "Remocao:  " << contRemocoes << " palavras em " << tempoRemocao << " ms. (Operacoes: " << opsRemocao << ")" << std::endl;
-
-    // consumo de memoria
-    long long memoriaBytes = minhaArvore.getConsumoMemoriaEmBytes();
-    double memoriaKB = memoriaBytes / 1024.0;
-    double memoriaMB = memoriaKB / 1024.0;
-
-    std::cout << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
-    saida << "Memoria:  " << memoriaBytes << " bytes (" << memoriaKB << " KB / " << memoriaMB << " MB)" << std::endl;
 
     arquivo.close();
 }
@@ -91,7 +94,7 @@ int main() {
     executarExperimento("input/dados_teste_string/tam_100/dicionario.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_100/aleatorio.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_100/prefixo_comum.txt", arquivoSaida);
-    
+
     executarExperimento("input/dados_teste_string/tam_1000/aleatorio.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_1000/dicionario.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_1000/prefixo_comum.txt", arquivoSaida);
@@ -106,9 +109,9 @@ int main() {
 
     executarExperimento("input/dados_teste_string/tam_1000000/aleatorio.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_1000000/prefixo_comum.txt", arquivoSaida);
-    
+
     arquivoSaida.close();
     std::cout << "\nTestes finalizados. Resultados salvos em 'output/resultados_patricia.txt'" << std::endl;
-    
+
     return 0;
 }
