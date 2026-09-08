@@ -1,0 +1,180 @@
+
+Testando arquivo: input/dados_teste_splay/tam_10/insercao_aleatoria.txt ---
+Insercao: 10 chaves em 0 ms. (Operacoes: 68)
+Busca:    10 chaves em 0 ms. (Operacoes: 110)
+Memoria:  320 bytes (0.3125 KB / 0.000305176 MB)
+Remocao:  10 chaves em 0 ms. (Operacoes: 66)
+
+Testando arquivo: input/dados_teste_splay/tam_10/insercao_crescente.txt ---
+Insercao: 10 chaves em 0 ms. (Operacoes: 27)
+Busca:    10 chaves em 0 ms. (Operacoes: 84)
+Memoria:  320 bytes (0.3125 KB / 0.000305176 MB)
+Remocao:  10 chaves em 0 ms. (Operacoes: 59)
+
+Testando arquivo: input/dados_teste_splay/tam_10/insercao_decrescente.txt ---
+Insercao: 10 chaves em 0 ms. (Operacoes: 27)
+Busca:    10 chaves em 0 ms. (Operacoes: 84)
+Memoria:  320 bytes (0.3125 KB / 0.000305176 MB)
+Remocao:  10 chaves em 0 ms. (Operacoes: 59)
+
+Testando arquivo: input/dados_teste_splay/tam_10/acesso_uniforme.txt ---
+Insercao: 10 chaves em 0 ms. (Operacoes: 43)
+Busca:    10 chaves em 0 ms. (Operacoes: 56)
+Memoria:  192 bytes (0.1875 KB / 0.000183105 MB)
+Remocao:  10 chaves em 0 ms. (Operacoes: 22)
+
+Testando arquivo: input/dados_teste_splay/tam_10/acesso_localidade.txt ---
+Insercao: 10 chaves em 0 ms. (Operacoes: 27)
+Busca:    10 chaves em 0 ms. (Operacoes: 41)
+Memoria:  96 bytes (0.09375 KB / 9.15527e-05 MB)
+Remocao:  10 chaves em 0 ms. (Operacoes: 16)
+
+Testando arquivo: input/dados_teste_splay/tam_100/insercao_aleatoria.txt ---
+Insercao: 100 chaves em 0 ms. (Operacoes: 1752)
+Busca:    100 chaves em 0 ms. (Operacoes: 2265)
+Memoria:  3200 bytes (3.125 KB / 0.00305176 MB)
+Remocao:  100 chaves em 0 ms. (Operacoes: 2041)
+
+Testando arquivo: input/dados_teste_splay/tam_100/insercao_crescente.txt ---
+Insercao: 100 chaves em 0 ms. (Operacoes: 297)
+Busca:    100 chaves em 0 ms. (Operacoes: 1174)
+Memoria:  3200 bytes (3.125 KB / 0.00305176 MB)
+Remocao:  100 chaves em 0 ms. (Operacoes: 909)
+
+Testando arquivo: input/dados_teste_splay/tam_100/insercao_decrescente.txt ---
+Insercao: 100 chaves em 0 ms. (Operacoes: 297)
+Busca:    100 chaves em 0 ms. (Operacoes: 1174)
+Memoria:  3200 bytes (3.125 KB / 0.00305176 MB)
+Remocao:  100 chaves em 0 ms. (Operacoes: 909)
+
+Testando arquivo: input/dados_teste_splay/tam_100/acesso_uniforme.txt ---
+Insercao: 100 chaves em 0 ms. (Operacoes: 1456)
+Busca:    100 chaves em 0 ms. (Operacoes: 1752)
+Memoria:  2016 bytes (1.96875 KB / 0.00192261 MB)
+Remocao:  100 chaves em 0 ms. (Operacoes: 1310)
+
+Testando arquivo: input/dados_teste_splay/tam_100/acesso_localidade.txt ---
+Insercao: 100 chaves em 0 ms. (Operacoes: 1039)
+Busca:    100 chaves em 0 ms. (Operacoes: 1163)
+Memoria:  928 bytes (0.90625 KB / 0.00088501 MB)
+Remocao:  100 chaves em 0 ms. (Operacoes: 793)
+
+Testando arquivo: input/dados_teste_splay/tam_1000/insercao_aleatoria.txt ---
+Insercao: 1000 chaves em 0 ms. (Operacoes: 28761)
+Busca:    1000 chaves em 0 ms. (Operacoes: 34158)
+Memoria:  32000 bytes (31.25 KB / 0.0305176 MB)
+Remocao:  1000 chaves em 1 ms. (Operacoes: 35674)
+
+Testando arquivo: input/dados_teste_splay/tam_1000/insercao_crescente.txt ---
+Insercao: 1000 chaves em 0 ms. (Operacoes: 2997)
+Busca:    1000 chaves em 0 ms. (Operacoes: 12293)
+Memoria:  32000 bytes (31.25 KB / 0.0305176 MB)
+Remocao:  1000 chaves em 0 ms. (Operacoes: 9580)
+
+Testando arquivo: input/dados_teste_splay/tam_1000/insercao_decrescente.txt ---
+Insercao: 1000 chaves em 0 ms. (Operacoes: 2997)
+Busca:    1000 chaves em 0 ms. (Operacoes: 12293)
+Memoria:  32000 bytes (31.25 KB / 0.0305176 MB)
+Remocao:  1000 chaves em 0 ms. (Operacoes: 9580)
+
+Testando arquivo: input/dados_teste_splay/tam_1000/acesso_uniforme.txt ---
+Insercao: 1000 chaves em 1 ms. (Operacoes: 25985)
+Busca:    1000 chaves em 0 ms. (Operacoes: 29170)
+Memoria:  19840 bytes (19.375 KB / 0.0189209 MB)
+Remocao:  1000 chaves em 0 ms. (Operacoes: 27405)
+
+Testando arquivo: input/dados_teste_splay/tam_1000/acesso_localidade.txt ---
+Insercao: 1000 chaves em 4 ms. (Operacoes: 22078)
+Busca:    1000 chaves em 2 ms. (Operacoes: 23520)
+Memoria:  10656 bytes (10.4062 KB / 0.0101624 MB)
+Remocao:  1000 chaves em 1 ms. (Operacoes: 20175)
+
+Testando arquivo: input/dados_teste_splay/tam_10000/insercao_aleatoria.txt ---
+Insercao: 10000 chaves em 22 ms. (Operacoes: 407983)
+Busca:    10000 chaves em 11 ms. (Operacoes: 462604)
+Memoria:  320000 bytes (312.5 KB / 0.305176 MB)
+Remocao:  10000 chaves em 9 ms. (Operacoes: 535019)
+
+Testando arquivo: input/dados_teste_splay/tam_10000/insercao_crescente.txt ---
+Insercao: 10000 chaves em 3 ms. (Operacoes: 29997)
+Busca:    10000 chaves em 2 ms. (Operacoes: 123870)
+Memoria:  320000 bytes (312.5 KB / 0.305176 MB)
+Remocao:  10000 chaves em 7 ms. (Operacoes: 96693)
+
+Testando arquivo: input/dados_teste_splay/tam_10000/insercao_decrescente.txt ---
+Insercao: 10000 chaves em 5 ms. (Operacoes: 29997)
+Busca:    10000 chaves em 4 ms. (Operacoes: 123870)
+Memoria:  320000 bytes (312.5 KB / 0.305176 MB)
+Remocao:  10000 chaves em 3 ms. (Operacoes: 96693)
+
+Testando arquivo: input/dados_teste_splay/tam_10000/acesso_uniforme.txt ---
+Insercao: 10000 chaves em 19 ms. (Operacoes: 379947)
+Busca:    10000 chaves em 9 ms. (Operacoes: 410550)
+Memoria:  201504 bytes (196.781 KB / 0.192169 MB)
+Remocao:  10000 chaves em 15 ms. (Operacoes: 429942)
+
+Testando arquivo: input/dados_teste_splay/tam_10000/acesso_localidade.txt ---
+Insercao: 10000 chaves em 10 ms. (Operacoes: 342132)
+Busca:    10000 chaves em 10 ms. (Operacoes: 357159)
+Memoria:  110208 bytes (107.625 KB / 0.105103 MB)
+Remocao:  10000 chaves em 9 ms. (Operacoes: 338787)
+
+Testando arquivo: input/dados_teste_splay/tam_100000/insercao_aleatoria.txt ---
+Insercao: 100000 chaves em 139 ms. (Operacoes: 5289294)
+Busca:    100000 chaves em 153 ms. (Operacoes: 5834258)
+Memoria:  3200000 bytes (3125 KB / 3.05176 MB)
+Remocao:  100000 chaves em 141 ms. (Operacoes: 7120266)
+
+Testando arquivo: input/dados_teste_splay/tam_100000/insercao_crescente.txt ---
+Insercao: 100000 chaves em 30 ms. (Operacoes: 299997)
+Busca:    100000 chaves em 34 ms. (Operacoes: 1239499)
+Memoria:  3200000 bytes (3125 KB / 3.05176 MB)
+Remocao:  100000 chaves em 54 ms. (Operacoes: 967634)
+
+Testando arquivo: input/dados_teste_splay/tam_100000/insercao_decrescente.txt ---
+Insercao: 100000 chaves em 38 ms. (Operacoes: 299997)
+Busca:    100000 chaves em 44 ms. (Operacoes: 1239499)
+Memoria:  3200000 bytes (3125 KB / 3.05176 MB)
+Remocao:  100000 chaves em 62 ms. (Operacoes: 967634)
+
+Testando arquivo: input/dados_teste_splay/tam_100000/acesso_uniforme.txt ---
+Insercao: 100000 chaves em 198 ms. (Operacoes: 5011698)
+Busca:    100000 chaves em 175 ms. (Operacoes: 5322672)
+Memoria:  2021184 bytes (1973.81 KB / 1.92755 MB)
+Remocao:  100000 chaves em 113 ms. (Operacoes: 5881422)
+
+Testando arquivo: input/dados_teste_splay/tam_100000/acesso_localidade.txt ---
+Insercao: 100000 chaves em 103 ms. (Operacoes: 4625871)
+Busca:    100000 chaves em 104 ms. (Operacoes: 4775763)
+Memoria:  1090720 bytes (1065.16 KB / 1.04019 MB)
+Remocao:  100000 chaves em 94 ms. (Operacoes: 4751616)
+
+Testando arquivo: input/dados_teste_splay/tam_1000000/insercao_aleatoria.txt ---
+Insercao: 1000000 chaves em 2442 ms. (Operacoes: 64938162)
+Busca:    1000000 chaves em 3467 ms. (Operacoes: 70386621)
+Memoria:  32000000 bytes (31250 KB / 30.5176 MB)
+Remocao:  1000000 chaves em 3634 ms. (Operacoes: 88959950)
+
+Testando arquivo: input/dados_teste_splay/tam_1000000/insercao_crescente.txt ---
+Insercao: 1000000 chaves em 278 ms. (Operacoes: 2999997)
+Busca:    1000000 chaves em 357 ms. (Operacoes: 12395796)
+Memoria:  32000000 bytes (31250 KB / 30.5176 MB)
+Remocao:  1000000 chaves em 397 ms. (Operacoes: 9677057)
+
+Testando arquivo: input/dados_teste_splay/tam_1000000/insercao_decrescente.txt ---
+Insercao: 1000000 chaves em 338 ms. (Operacoes: 2999997)
+Busca:    1000000 chaves em 382 ms. (Operacoes: 12395796)
+Memoria:  32000000 bytes (31250 KB / 30.5176 MB)
+Remocao:  1000000 chaves em 500 ms. (Operacoes: 9677057)
+
+Testando arquivo: input/dados_teste_splay/tam_1000000/acesso_uniforme.txt ---
+Insercao: 1000000 chaves em 2673 ms. (Operacoes: 62151224)
+Busca:    1000000 chaves em 2742 ms. (Operacoes: 65260099)
+Memoria:  20235936 bytes (19761.7 KB / 19.2985 MB)
+Remocao:  1000000 chaves em 2285 ms. (Operacoes: 74516126)
+
+Testando arquivo: input/dados_teste_splay/tam_1000000/acesso_localidade.txt ---
+Insercao: 1000000 chaves em 2142 ms. (Operacoes: 58325721)
+Busca:    1000000 chaves em 1996 ms. (Operacoes: 59823162)
+Memoria:  10940704 bytes (10684.3 KB / 10.4339 MB)
+Remocao:  1000000 chaves em 1727 ms. (Operacoes: 61626771)
