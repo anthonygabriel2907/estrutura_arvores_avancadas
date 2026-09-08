@@ -1,0 +1,86 @@
+
+Testando arquivo: input/dados_teste_kdtree/tam_10/ordenado.txt ---
+Insercao: 10 pontos em 0 ms. (Operacoes: 45)
+Busca Exata: 10 pontos em 0 ms. (Operacoes: 55)
+Busca Vizinho Mais Proximo: 0 ms. (Operacoes: 30)
+Memoria:  400 bytes (0.390625 KB / 0.00038147 MB)
+Remocao:  10 pontos em 0 ms. (Operacoes: 136)
+
+Testando arquivo: input/dados_teste_kdtree/tam_10/aleatorio.txt ---
+Insercao: 10 pontos em 0 ms. (Operacoes: 23)
+Busca Exata: 10 pontos em 0 ms. (Operacoes: 33)
+Busca Vizinho Mais Proximo: 0 ms. (Operacoes: 50)
+Memoria:  400 bytes (0.390625 KB / 0.00038147 MB)
+Remocao:  10 pontos em 0 ms. (Operacoes: 49)
+
+Testando arquivo: input/dados_teste_kdtree/tam_10/agrupado.txt ---
+Insercao: 10 pontos em 0 ms. (Operacoes: 28)
+Busca Exata: 10 pontos em 0 ms. (Operacoes: 38)
+Busca Vizinho Mais Proximo: 0 ms. (Operacoes: 30)
+Memoria:  400 bytes (0.390625 KB / 0.00038147 MB)
+Remocao:  10 pontos em 0 ms. (Operacoes: 52)
+
+Testando arquivo: input/dados_teste_kdtree/tam_100/ordenado.txt ---
+Insercao: 100 pontos em 1 ms. (Operacoes: 4950)
+Busca Exata: 100 pontos em 2 ms. (Operacoes: 5050)
+Busca Vizinho Mais Proximo: 0 ms. (Operacoes: 1100)
+Memoria:  4000 bytes (3.90625 KB / 0.0038147 MB)
+Remocao:  100 pontos em 1 ms. (Operacoes: 14851)
+
+Testando arquivo: input/dados_teste_kdtree/tam_100/aleatorio.txt ---
+Insercao: 100 pontos em 2 ms. (Operacoes: 651)
+Busca Exata: 100 pontos em 0 ms. (Operacoes: 751)
+Busca Vizinho Mais Proximo: 0 ms. (Operacoes: 700)
+Memoria:  4000 bytes (3.90625 KB / 0.0038147 MB)
+Remocao:  100 pontos em 0 ms. (Operacoes: 1084)
+
+Testando arquivo: input/dados_teste_kdtree/tam_100/agrupado.txt ---
+Insercao: 100 pontos em 0 ms. (Operacoes: 657)
+Busca Exata: 100 pontos em 2 ms. (Operacoes: 757)
+Busca Vizinho Mais Proximo: 2 ms. (Operacoes: 4100)
+Memoria:  4000 bytes (3.90625 KB / 0.0038147 MB)
+Remocao:  100 pontos em 0 ms. (Operacoes: 1167)
+
+Testando arquivo: input/dados_teste_kdtree/tam_1000/ordenado.txt ---
+Insercao: 1000 pontos em 101 ms. (Operacoes: 499500)
+Busca Exata: 1000 pontos em 67 ms. (Operacoes: 500500)
+Busca Vizinho Mais Proximo: 8 ms. (Operacoes: 39000)
+Memoria:  40000 bytes (39.0625 KB / 0.038147 MB)
+Remocao:  1000 pontos em 86 ms. (Operacoes: 1498501)
+
+Testando arquivo: input/dados_teste_kdtree/tam_1000/aleatorio.txt ---
+Insercao: 1000 pontos em 3 ms. (Operacoes: 10691)
+Busca Exata: 1000 pontos em 4 ms. (Operacoes: 11691)
+Busca Vizinho Mais Proximo: 5 ms. (Operacoes: 19000)
+Memoria:  40000 bytes (39.0625 KB / 0.038147 MB)
+Remocao:  1000 pontos em 1 ms. (Operacoes: 16066)
+
+Testando arquivo: input/dados_teste_kdtree/tam_1000/agrupado.txt ---
+Insercao: 1000 pontos em 1 ms. (Operacoes: 10928)
+Busca Exata: 1000 pontos em 1 ms. (Operacoes: 11928)
+Busca Vizinho Mais Proximo: 12 ms. (Operacoes: 39000)
+Memoria:  40000 bytes (39.0625 KB / 0.038147 MB)
+Remocao:  1000 pontos em 5 ms. (Operacoes: 16673)
+
+Testando arquivo: input/dados_teste_kdtree/tam_10000/ordenado.txt ---
+Insercao: 10000 pontos em 6802 ms. (Operacoes: 49995000)
+Busca Exata: 10000 pontos em 6163 ms. (Operacoes: 50005000)
+Busca Vizinho Mais Proximo: 94 ms. (Operacoes: 390000)
+Memoria:  400000 bytes (390.625 KB / 0.38147 MB)
+Remocao:  10000 pontos em 8918 ms. (Operacoes: 149985001)
+
+Testando arquivo: input/dados_teste_kdtree/tam_10000/aleatorio.txt ---
+Insercao: 10000 pontos em 25 ms. (Operacoes: 163397)
+Busca Exata: 10000 pontos em 25 ms. (Operacoes: 173397)
+Busca Vizinho Mais Proximo: 58 ms. (Operacoes: 270000)
+Memoria:  400000 bytes (390.625 KB / 0.38147 MB)
+Remocao:  10000 pontos em 30 ms. (Operacoes: 217711)
+
+Testando arquivo: input/dados_teste_kdtree/tam_10000/agrupado.txt ---
+Insercao: 10000 pontos em 26 ms. (Operacoes: 160796)
+Busca Exata: 10000 pontos em 28 ms. (Operacoes: 170796)
+Busca Vizinho Mais Proximo: 261 ms. (Operacoes: 1080000)
+Memoria:  400000 bytes (390.625 KB / 0.38147 MB)
+Remocao:  10000 pontos em 39 ms. (Operacoes: 215591)
+
+Testando arquivo: input/dados_teste_kdtree/tam_100000/ordenado.txt ---
