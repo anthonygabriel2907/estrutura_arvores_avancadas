@@ -1,0 +1,108 @@
+
+Testando arquivo: input/dados_teste_treap/tam_10/insercao_aleatoria.txt ---
+Insercao: 10 elementos em 0 ms. (Operacoes: 42)
+Busca:    10 elementos em 0 ms. (Operacoes: 32)
+Memoria:  240 bytes (0.234375 KB / 0.000228882 MB)
+Remocao:  10 elementos em 0 ms. (Operacoes: 29)
+
+Testando arquivo: input/dados_teste_treap/tam_10/insercao_crescente.txt ---
+Insercao: 10 elementos em 0 ms. (Operacoes: 22)
+Busca:    10 elementos em 0 ms. (Operacoes: 30)
+Memoria:  240 bytes (0.234375 KB / 0.000228882 MB)
+Remocao:  10 elementos em 0 ms. (Operacoes: 20)
+
+Testando arquivo: input/dados_teste_treap/tam_10/insercao_decrescente.txt ---
+Insercao: 10 elementos em 0 ms. (Operacoes: 27)
+Busca:    10 elementos em 0 ms. (Operacoes: 31)
+Memoria:  240 bytes (0.234375 KB / 0.000228882 MB)
+Remocao:  10 elementos em 0 ms. (Operacoes: 16)
+
+Testando arquivo: input/dados_teste_treap/tam_100/insercao_aleatoria.txt ---
+Insercao: 100 elementos em 0 ms. (Operacoes: 877)
+Busca:    100 elementos em 0 ms. (Operacoes: 868)
+Memoria:  2400 bytes (2.34375 KB / 0.00228882 MB)
+Remocao:  100 elementos em 0 ms. (Operacoes: 735)
+
+Testando arquivo: input/dados_teste_treap/tam_100/insercao_crescente.txt ---
+Insercao: 100 elementos em 0 ms. (Operacoes: 521)
+Busca:    100 elementos em 0 ms. (Operacoes: 715)
+Memoria:  2400 bytes (2.34375 KB / 0.00228882 MB)
+Remocao:  100 elementos em 0 ms. (Operacoes: 382)
+
+Testando arquivo: input/dados_teste_treap/tam_100/insercao_decrescente.txt ---
+Insercao: 100 elementos em 0 ms. (Operacoes: 579)
+Busca:    100 elementos em 0 ms. (Operacoes: 798)
+Memoria:  2400 bytes (2.34375 KB / 0.00228882 MB)
+Remocao:  100 elementos em 0 ms. (Operacoes: 413)
+
+Testando arquivo: input/dados_teste_treap/tam_1000/insercao_aleatoria.txt ---
+Insercao: 1000 elementos em 0 ms. (Operacoes: 12614)
+Busca:    1000 elementos em 0 ms. (Operacoes: 12348)
+Memoria:  24000 bytes (23.4375 KB / 0.0228882 MB)
+Remocao:  1000 elementos em 0 ms. (Operacoes: 12628)
+
+Testando arquivo: input/dados_teste_treap/tam_1000/insercao_crescente.txt ---
+Insercao: 1000 elementos em 0 ms. (Operacoes: 6929)
+Busca:    1000 elementos em 0 ms. (Operacoes: 11731)
+Memoria:  24000 bytes (23.4375 KB / 0.0228882 MB)
+Remocao:  1000 elementos em 0 ms. (Operacoes: 6796)
+
+Testando arquivo: input/dados_teste_treap/tam_1000/insercao_decrescente.txt ---
+Insercao: 1000 elementos em 0 ms. (Operacoes: 7868)
+Busca:    1000 elementos em 0 ms. (Operacoes: 13137)
+Memoria:  24000 bytes (23.4375 KB / 0.0228882 MB)
+Remocao:  1000 elementos em 0 ms. (Operacoes: 7261)
+
+Testando arquivo: input/dados_teste_treap/tam_10000/insercao_aleatoria.txt ---
+Insercao: 10000 elementos em 5 ms. (Operacoes: 179910)
+Busca:    10000 elementos em 1 ms. (Operacoes: 164933)
+Memoria:  240000 bytes (234.375 KB / 0.228882 MB)
+Remocao:  10000 elementos em 2 ms. (Operacoes: 163472)
+
+Testando arquivo: input/dados_teste_treap/tam_10000/insercao_crescente.txt ---
+Insercao: 10000 elementos em 1 ms. (Operacoes: 97652)
+Busca:    10000 elementos em 0 ms. (Operacoes: 162611)
+Memoria:  240000 bytes (234.375 KB / 0.228882 MB)
+Remocao:  10000 elementos em 0 ms. (Operacoes: 84933)
+
+Testando arquivo: input/dados_teste_treap/tam_10000/insercao_decrescente.txt ---
+Insercao: 10000 elementos em 1 ms. (Operacoes: 100290)
+Busca:    10000 elementos em 0 ms. (Operacoes: 161686)
+Memoria:  240000 bytes (234.375 KB / 0.228882 MB)
+Remocao:  10000 elementos em 0 ms. (Operacoes: 81372)
+
+Testando arquivo: input/dados_teste_treap/tam_100000/insercao_aleatoria.txt ---
+Insercao: 100000 elementos em 96 ms. (Operacoes: 2271390)
+Busca:    100000 elementos em 115 ms. (Operacoes: 2134822)
+Memoria:  2400000 bytes (2343.75 KB / 2.28882 MB)
+Remocao:  100000 elementos em 41 ms. (Operacoes: 2080602)
+
+Testando arquivo: input/dados_teste_treap/tam_100000/insercao_crescente.txt ---
+Insercao: 100000 elementos em 20 ms. (Operacoes: 1385328)
+Busca:    100000 elementos em 9 ms. (Operacoes: 2339357)
+Memoria:  2400000 bytes (2343.75 KB / 2.28882 MB)
+Remocao:  100000 elementos em 7 ms. (Operacoes: 1153993)
+
+Testando arquivo: input/dados_teste_treap/tam_100000/insercao_decrescente.txt ---
+Insercao: 100000 elementos em 25 ms. (Operacoes: 1415992)
+Busca:    100000 elementos em 9 ms. (Operacoes: 2227236)
+Memoria:  2400000 bytes (2343.75 KB / 2.28882 MB)
+Remocao:  100000 elementos em 6 ms. (Operacoes: 1011204)
+
+Testando arquivo: input/dados_teste_treap/tam_1000000/insercao_aleatoria.txt ---
+Insercao: 1000000 elementos em 1654 ms. (Operacoes: 26260576)
+Busca:    1000000 elementos em 1660 ms. (Operacoes: 25431808)
+Memoria:  24000000 bytes (23437.5 KB / 22.8882 MB)
+Remocao:  1000000 elementos em 1262 ms. (Operacoes: 28011787)
+
+Testando arquivo: input/dados_teste_treap/tam_1000000/insercao_crescente.txt ---
+Insercao: 1000000 elementos em 234 ms. (Operacoes: 29922194)
+Busca:    1000000 elementos em 197 ms. (Operacoes: 38710432)
+Memoria:  24000000 bytes (23437.5 KB / 22.8882 MB)
+Remocao:  1000000 elementos em 95 ms. (Operacoes: 10788148)
+
+Testando arquivo: input/dados_teste_treap/tam_1000000/insercao_decrescente.txt ---
+Insercao: 1000000 elementos em 218 ms. (Operacoes: 22169253)
+Busca:    1000000 elementos em 109 ms. (Operacoes: 31400134)
+Memoria:  24000000 bytes (23437.5 KB / 22.8882 MB)
+Remocao:  1000000 elementos em 55 ms. (Operacoes: 11230815)
