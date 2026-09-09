@@ -88,6 +88,10 @@ int main() {
 
     std::cout << "Iniciando testes da Trie" << std::endl;
 
+    executarExperimento("input/dados_teste_string/tam_10/dicionario.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_10/aleatorio.txt", arquivoSaida);
+    executarExperimento("input/dados_teste_string/tam_10/prefixo_comum.txt", arquivoSaida);
+
     executarExperimento("input/dados_teste_string/tam_100/dicionario.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_100/aleatorio.txt", arquivoSaida);
     executarExperimento("input/dados_teste_string/tam_100/prefixo_comum.txt", arquivoSaida);
