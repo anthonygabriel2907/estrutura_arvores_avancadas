@@ -1,6 +1,6 @@
 # Estruturas em Árvores Avançadas
 
-**Trabalho Individual I — Algoritmos e Estruturas de Dados II**
+**Trabalho Individual — Algoritmos e Estruturas de Dados II**
 CEFET-MG, Campus V — Divinópolis, Brasil
 
 **Autor:** Anthony Gabriel Sotto Mayor Silva
