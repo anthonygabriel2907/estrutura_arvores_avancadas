@@ -22,8 +22,6 @@ As estruturas implementadas são:
 | Treap (Tree + Heap) | [`Treap/`](./Treap) | Inserção, busca, remoção por rebaixamento via rotações |
 | KD-Tree (K=2) | [`KDTree/`](./KDTree) | Inserção, busca exata, remoção (algoritmo de Bentley), busca do vizinho mais próximo |
 
-O relatório técnico completo — com fundamentação teórica, decisões de projeto, análise de complexidade assintótica, demonstração visual e discussão crítica dos resultados — está disponível separadamente. Em caso de dúvida sobre qualquer detalhe de implementação não coberto por este README, consulte o [repositório no GitHub](https://github.com/anthonygabriel2907/estrutura_arvores_avancadas) para a versão mais atual do código.
-
 ## Estrutura do repositório
 
 ```
